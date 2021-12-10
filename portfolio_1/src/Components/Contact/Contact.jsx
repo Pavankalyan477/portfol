@@ -13,7 +13,7 @@ import { YouTube } from '@material-ui/icons';
 import styles from "../Contact/Contact.module.css";
 import emailjs from 'emailjs-com';
 import Resume from "../Data/FW11_191_Pavan_Kalyan.pdf"
-import {USER_ID, TEMPLATE_ID, SERVICE_ID} from "./emailkey"
+ import {USER_ID, TEMPLATE_ID, SERVICE_ID} from "./emailkey"
 
 const Contact = () => {
 
@@ -29,10 +29,11 @@ const Contact = () => {
     const handleLoad = () => {
         setLoad(true)
     }
-
+//const mail="sarakantipavankalyan070@gmail.com"
     const handleSubmit = (e) => {
         e.preventDefault();
-        emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
+      
+        emailjs.sendForm(USER_ID, TEMPLATE_ID, SERVICE_ID,e.target) 
           .then((result) => {
             setEmail(true);
           }, (error) => {
