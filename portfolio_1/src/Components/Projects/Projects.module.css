@@ -4,6 +4,7 @@
     border: 1px solid white;
 }
 
+
 .title{
     margin-top: 5%;
     height: 50px;
@@ -31,6 +32,9 @@
 .projectContainer{
     display: flex;
     flex-wrap: wrap;
+}
+.projectCardPic:hover{
+    zoom:110%;
 }
 
 .projectCard{
@@ -67,31 +71,32 @@
 }
 
 .projectCardStack{
-    display: flex;
-    width: 50%;
+    /* display: flex; */
+    width: 90%;
     height: auto;
     margin: auto;
-    margin-top: 1%;
+    /* margin-top: 1%; */
     /* border: 1px solid; */
 }
 
 .projectCardDesc{
     width: 95%;
     height: 80px;
-    margin: auto;
-    margin-top: 1%;
+    /* margin: auto;
+    margin-top: 1%; */
     text-align: center;
+   
 }
 
 .projectCardDesc>p{
-    font-size: 13px;
+    font-size: 17px;
 }
 
 .projectCardBtn{
     width: 50%;
     height: 30px;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 7%;
     display: flex;
     /* border: 1px solid; */
     justify-content: space-between;
@@ -112,8 +117,8 @@
         width: 90%;
         height: auto;
         border: 1px solid white;
-        margin: auto;
-        margin-top: 8%;
+        /* margin: auto;
+        margin-top: 8%; */
         padding: 12px;
         background: white;
         box-shadow:  18px 18px 19px #b5b8b9,
@@ -121,14 +126,14 @@
     }
 
     .projectCardDesc>p{
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .projectCardBtn{
         width: 80%;
         height: 30px;
         margin: auto;
-        margin-top: 5%;
+        margin-top: 7%;
         display: flex;
         /* flex-wrap: wrap; */
     }
@@ -139,12 +144,15 @@
         height: 30px;
         margin-top: 2%;
     }
+    .projectCardPic:hover{
+        zoom:110%;
+    }
 
     .projectCardStack{
-        display: flex;
-        width: 50%;
+        /* display: flex; */
+        width: 80%;
         height: 40px;
-        margin: auto;
+        /* margin: auto; */
         /* border: 1px solid; */
     }
 }
@@ -168,17 +176,17 @@
         font-size: 12px;
     }
     .projectCardStack{
-        display: flex;
-        width: 50%;
+        /* display: flex; */
+        width: 90%;
         height: 30px;
-        margin: auto;
-        margin-top: 15%;
+        /* margin: auto; */
+        /* margin-top: 1%; */
     }
     .projectCardBtn{
         width: 68%;
         height: 30px;
         margin: auto;
-        margin-top: 5%;
+        margin-top: 7%;
         display: flex;
         /* flex-wrap: wrap; */
     }
@@ -188,6 +196,9 @@
         cursor: pointer;
         height: 30px;
         margin-top: 2%;
+    }
+    .projectCardPic:hover{
+        zoom:110%;
     }
     
 }
@@ -207,11 +218,11 @@
         padding: 12px;
     }
     .projectCardStack{
-        display: flex;
-        width: 50%;
+        /* display: flex; */
+        width: 90%;
         height: 30px;
         margin: auto;
-        margin-top: 15%;
+        /* margin-top: 15%; */
         /* border: 1px solid; */
 
     }
@@ -228,7 +239,10 @@
         margin-right: 2%;
         cursor: pointer;
         height: 30px;
-        margin-top: 2%;
+        margin-top: 5%;
+    }
+    .projectCardPic:hover{
+        zoom:110%;
     }
 }
 
@@ -247,10 +261,13 @@
         padding: 12px;
     }
     .projectCardStack{
-        display: flex;
-        width: 50%;
+        /* display: flex; */
+        width: 90%;
         height: 40px;
-        margin: auto;
+        /* margin: auto; */
         /* border: 1px solid; */
+    }
+    .projectCardPic:hover{
+        zoom:110%;
     }
 }
